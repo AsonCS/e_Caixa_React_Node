@@ -1,0 +1,16 @@
+{
+  "name": "my-app-node-react",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "package.json": "^2.0.1",
+    "react-router-redux": "^4.0.8"
+  },
+  "devDependencies": {
+    "concurrently": "^3.6.1"
+  }
+}

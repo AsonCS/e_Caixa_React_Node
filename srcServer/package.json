@@ -1,0 +1,15 @@
+{
+  "name": "node-react",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "package.json": "^2.0.1"
+  },
+  "devDependencies": {
+    "concurrently": "^3.6.1"
+  }
+}
